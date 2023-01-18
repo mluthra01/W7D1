@@ -1,0 +1,15 @@
+<section class="page"><div class="centered-box">
+    <h1>New User</h1>
+    #form here
+    <form action="<%= users_url %>" method="post">
+
+    <label for="user_name">Username:</label>
+    <input type="text" name="user[username]"
+        id="user_name" value="">
+    <br>
+    <label>Password:</label>
+    <input type="password" name="user[password]" value="">
+    <br>
+    <input type="submit" value="Sign Up">
+    </form>
+</div></section>
